@@ -4,7 +4,7 @@ import pymysql
 conn = pymysql.connect(host='localhost', port=3306, user='root', passwd='zagadaga369', db='users')
 conn.autocommit(True)
 
-# Getting a cursor from Database
+# Getting a cursor from dtuhdrthd
 cursor = conn.cursor()
 
 # Deleting data into table
